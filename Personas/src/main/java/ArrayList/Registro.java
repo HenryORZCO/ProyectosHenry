@@ -64,6 +64,12 @@ public class Registro extends javax.swing.JFrame {
             }
         });
 
+        txtnombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtnombreActionPerformed(evt);
+            }
+        });
+
         txtG1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtG1ActionPerformed(evt);
@@ -166,6 +172,10 @@ public class Registro extends javax.swing.JFrame {
     private void txtG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtG1ActionPerformed
        
     }//GEN-LAST:event_txtG1ActionPerformed
+
+    private void txtnombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnombreActionPerformed
 
     /**
      * @param args the command line arguments
